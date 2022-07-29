@@ -173,7 +173,7 @@ ul.menu > li.sub:hover .subcontent {
 
 .education-program > .main{
     width: 100%;
-    background-image: url(https://truongquochoc.com/wp-content/uploads/2020/10/25-hinh-nen-powerpoint-cong-nghe-thong-tin-cuc-dep-19.jpg);
+    background-image: url(../images/educationProgram/head.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-wrap: wrap;
@@ -308,7 +308,7 @@ ul.menu > li.sub:hover .subcontent {
 
 .main3 {
     width: 100%;
-    background-image: url(https://macservice.vn/wp-content/uploads/2019/07/hinh-anh-IT-service-la-gi-4.jpg);
+    background-image: url(../images/infomation/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
