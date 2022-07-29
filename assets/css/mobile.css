@@ -277,7 +277,7 @@ html {
 
 .main3_mobile {
     display: block;
-    background-image: url(/assets/images/infomation/background.jpg);
+    background-image: url(../images/infomation/background.jpg);
 }
 
 .teacher_slider-outer {
