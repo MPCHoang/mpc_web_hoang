@@ -337,9 +337,8 @@ a.info-teacher > img {
 }
 
 .slider-outer i {
-    line-height: 300px;
-    font-size: 140px;
-    padding: 5px;
+    font-size: 50px;
+    padding: 10px;
 }
 
 .slider-inner {
@@ -360,18 +359,17 @@ a.info-teacher > img {
 
 .prev, .next {
     position: absolute;
-    width: 9%;
-    height: 300px;
     background-color: rgba(191, 191, 191, 0.8);
-    top: 0;
+    top: 40%;
+    border-radius: 50%;
 }
 
 .prev {
-    left: 15px;
+    left: 30px;
 }
 
 .next {
-    right: 15px;
+    right: 30px;
 }
 
 /*FOOTER*/
