@@ -269,7 +269,7 @@ html {
     position: relative;
 }
 
-/*TEACHER GROUP*/
+/*TEACHER GROUP - COMMMENTS*/
 
 .main3 {
     display: none;
@@ -280,35 +280,35 @@ html {
     background-image: url(../images/infomation/background.jpg);
 }
 
-.teacher_slider-outer {
+.teacher_slider-outer, .slider-outer {
     width: 100%;
     height: 300px;
     position: relative;
 }
 
-.teacher_slider-outer i {
+.teacher_slider-outer i, .slider-outer i {
     line-height: 300px;
     font-size: 30px;
     padding: 5px;
 }
 
-.teacher_slider-inner {
-    width: 80%;
+.teacher_slider-inner, .slider_inner {
+    width: 90%;
     height: 300px;
     margin: 0 auto;
 }
 
-.teacher_slider-inner > img {
+.teacher_slider-inner > img, .slider_inner > img {
     width: 100%;
     height: 300px;
     display: none;
 }
 
-.teacher_slider-inner > img.teacher_active {
+.teacher_slider-inner > img.teacher_active, .slider_inner > img.active {
     display: block;
 }
 
-.teacher_prev, .teacher_next {
+.teacher_prev, .teacher_next, .prev, .next {
     position: absolute;
     width: 9%;
     height: 300px;
@@ -316,21 +316,17 @@ html {
     top: 0;
 }
 
-.teacher_prev {
+.prev, .next {
+    border-radius: 0%;;
+}
+
+.teacher_prev, .prev {
     left: 15px;
 }
 
-.teacher_next {
+.teacher_next, .next {
     right: 15px;
 }
-
-/*COMMENTS*/
-
-.slider-outer i {
-    font-size: 30px;
-}
-
-
 
 /*FOOTER*/
 
